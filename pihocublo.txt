@@ -1,0 +1,313 @@
+# Pi-hole Custom Blocklist – Erweiterte Werbenetzwerke & Tracker
+# Letzte Aktualisierung: 2026-05-20
+# Format: eine Domain pro Zeile
+# Verwendung: Pi-hole Admin → Adlists → URL einfügen, dann: pihole -g
+
+# ===========================
+# GROSSE WERBENETZWERKE
+# ===========================
+doubleclick.net
+googlesyndication.com
+googleadservices.com
+adservice.google.com
+ads.youtube.com
+amazon-adsystem.com
+media.net
+outbrain.com
+taboola.com
+revcontent.com
+mgid.com
+criteo.com
+criteo.net
+adnxs.com
+rubiconproject.com
+pubmatic.com
+openx.net
+smartadserver.com
+33across.com
+sharethrough.com
+teads.tv
+yieldmo.com
+appnexus.com
+tradedesk.net
+adsrvr.org
+advertising.com
+yieldlab.net
+adform.net
+zemanta.com
+spotxchange.com
+contextweb.com
+
+# ===========================
+# WEITERE WERBENETZWERKE
+# ===========================
+ads.twitter.com
+ads.linkedin.com
+ads.pinterest.com
+snap-ads.snapchat.com
+ads.tiktok.com
+an.facebook.com
+connect.facebook.net
+static.ads-twitter.com
+aax.amazon-adsystem.com
+fls-na.amazon-adsystem.com
+s.amazon-adsystem.com
+mads.amazon-adsystem.com
+aax-us-east.amazon-adsystem.com
+adserver.adtechus.com
+adserver2.adtechus.com
+adtech.de
+atwola.com
+adsonar.com
+advertising.aol.com
+ads.aol.com
+adserver.yahoo.com
+ads.yahoo.com
+gemini.yahoo.com
+oath.com
+ads.oath.com
+verizonmedia.com
+ads.verizonmedia.com
+yieldmanager.com
+yieldmanager.net
+atdmt.com
+msads.net
+bingads.microsoft.com
+ads.microsoft.com
+bing.com.tracking.net
+sizmek.com
+mediaplex.com
+flashtalking.com
+adscale.de
+adscale.net
+stroeer.de
+stroeer-online-vermarktung.de
+iq digital.de
+iqdigital.de
+oms.eu
+semasio.com
+semasio.net
+xandr.com
+appnexus.net
+adskeeper.co.uk
+adskeeper.com
+propellerads.com
+propellerads.net
+popcash.net
+popads.net
+adcash.com
+hilltopads.net
+adsterra.com
+trafficjunky.net
+trafficjunky.com
+juicyads.com
+exoclick.com
+exoads.com
+ero-advertising.com
+
+# ===========================
+# TRACKING & ANALYTICS
+# ===========================
+google-analytics.com
+analytics.google.com
+googletagmanager.com
+googletagservices.com
+stats.g.doubleclick.net
+ssl.google-analytics.com
+www.google-analytics.com
+mc.yandex.ru
+mc.yandex.com
+metrika.yandex.com
+counter.yadro.ru
+hotjar.com
+static.hotjar.com
+script.hotjar.com
+stats.hotjar.com
+mixpanel.com
+api.mixpanel.com
+cdn.mxpnl.com
+segment.com
+api.segment.io
+cdn.segment.com
+amplitude.com
+api.amplitude.com
+cdn.amplitude.com
+heap.io
+heapanalytics.com
+cdn.heapanalytics.com
+fullstory.com
+rs.fullstory.com
+edge.fullstory.com
+logrocket.com
+cdn.logrocket.io
+mouseflow.com
+cdn.mouseflow.com
+luckyorange.com
+cdn.luckyorange.com
+smartlook.com
+rec.smartlook.com
+inspectlet.com
+hn.inspectlet.com
+crazyegg.com
+script.crazyegg.com
+clicktale.net
+cdnssl.clicktale.net
+quantserve.com
+pixel.quantserve.com
+scorecard research.com
+scorecardresearch.com
+comscore.com
+beacon.scorecardresearch.com
+chartbeat.com
+static.chartbeat.com
+ping.chartbeat.net
+newrelic.com
+bam.nr-data.net
+js-agent.newrelic.com
+dynatrace.com
+parsely.com
+srv.pixel.parsely.com
+px.parsely.com
+clicky.com
+in.getclicky.com
+statcounter.com
+c.statcounter.com
+woopra.com
+track.woopra.com
+kissmetrics.com
+doug1izaerwt3.cloudfront.net
+intercom.io
+api.intercom.io
+widget.intercom.io
+js.intercomcdn.com
+drift.com
+js.driftt.com
+event.api.drift.com
+
+# ===========================
+# SOCIAL MEDIA TRACKER
+# ===========================
+connect.facebook.net
+graph.facebook.com
+pixel.facebook.com
+tr.facebook.com
+web.facebook.com
+platform.twitter.com
+syndication.twitter.com
+ads-twitter.com
+analytics.twitter.com
+static.ads-twitter.com
+p.twitter.com
+t.co
+linkedin.com.tracker
+px.ads.linkedin.com
+dc.ads.linkedin.com
+platform.linkedin.com
+snap.licdn.com
+widgets.pinterest.com
+log.pinterest.com
+trk.pinterest.com
+ads.pinterest.com
+ad.doubleclick.net
+www.googleadservices.com
+
+# ===========================
+# RETARGETING & REMARKETING
+# ===========================
+retargeter.com
+fetchback.com
+triggit.com
+dotomi.com
+conversant.com
+valueclick.com
+valueclickmedia.com
+tradedoubler.com
+awin.com
+zanox.com
+affilinet.de
+webgains.com
+tradetracker.com
+daisycon.com
+belboon.de
+zanox-affiliate.de
+
+# ===========================
+# FINGERPRINTING & IDENTITY
+# ===========================
+fingerprintjs.com
+fpjs.io
+fingerprint.com
+api.fingerprint.com
+deviceatlas.com
+scientiamobile.com
+51degrees.com
+liveramp.com
+ats.rlcdn.com
+rlcdn.com
+neustar.biz
+tapad.com
+drawbridge.com
+id5-sync.com
+liveintent.com
+freewheel.tv
+stormiq.com
+turn.com
+netflame.cc
+
+# ===========================
+# COOKIE CONSENT & CMP (optional)
+# ===========================
+# Achtung: Blockierung kann Cookie-Banner kaputt machen –
+# auf manchen Seiten aber gewünscht
+cookielaw.org
+cdn.cookielaw.org
+optanon.blob.core.windows.net
+consent.trustarc.com
+truste.com
+usercentrics.eu
+app.usercentrics.eu
+privacy-mgmt.com
+sourcepoint.com
+cdn.privacy-mgmt.com
+quantcast.com
+quantcast.mgr.consensu.org
+consensu.org
+iabeurope.eu
+
+# ===========================
+# PUSH-BENACHRICHTIGUNGEN / SPAM
+# ===========================
+onesignal.com
+cdn.onesignal.com
+pushcrew.com
+web.pushcrew.com
+pushwoosh.com
+cp.pushwoosh.com
+pushassist.com
+subscribers.com
+sendpulse.com
+gravitec.net
+push.world
+
+# ===========================
+# DEUTSCHE WERBENETZWERKE
+# ===========================
+adition.com
+adition.net
+intelliad.de
+intelliad-tracking.com
+adscale.de
+emetriq.de
+exactag.com
+webtrekk.net
+webtrekk.com
+seo-trck.de
+etracker.com
+etracker.de
+vgwort.de
+script.vgwort.de
+iocnt.net
+ivwbox.de
+szmtag.de
+agkn.com
+agkn.de
